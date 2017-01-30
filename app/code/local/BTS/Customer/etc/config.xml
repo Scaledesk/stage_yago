@@ -1,0 +1,32 @@
+<?xml version="1.0"?> 
+<config>
+	<modules>
+	<BTS_Customer> 
+	<version>0.0.1</version>
+	</BTS_Customer>
+	</modules> 
+	<global>
+		<fieldsets>
+			<customer_account>
+				<samples_ordered>
+					<create>1</create>
+					<update>1</update>
+				</samples_ordered> 
+			</customer_account>
+		</fieldsets>
+	<models>
+		<bts_customer>
+			<class>BTS_Customer_Model</class>
+		</bts_customer>
+	</models>
+	<resources>
+		<bts_customer_setup>
+			<setup>
+				<module>BTS_Customer</module>
+				<class>BTS_Customer_Model_Entity_Setup</class>
+			</setup>
+		</bts_customer_setup>
+	</resources>
+	</global> 
+</config>
+
